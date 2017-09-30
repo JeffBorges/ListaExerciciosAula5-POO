@@ -2,13 +2,13 @@ package lista.exercicios.dip.violation;
 
 public class Piloto {
 
-    private CarroDeCorrida veiculo;
+    private Carro carro;
 
-    public Piloto(){
-        this.veiculo = new CarroDeCorrida(100);
+    public Piloto(Carro carro){
+        this.carro = carro;
     }
 
     public void aumentaVelocidade(){
-        veiculo.acelerar();
+        carro.acelerar();
     }
 }

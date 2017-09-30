@@ -1,5 +1,5 @@
 package lista.exercicios.ocp.violation;
 
-public enum ModoDirecao {
-    ESPORTE, PASSEIO
+public interface ModoDirecao {
+  void mudarModoDirecao(Veiculo veiculo);
 }

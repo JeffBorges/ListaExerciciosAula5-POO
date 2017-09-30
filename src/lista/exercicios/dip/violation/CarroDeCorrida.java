@@ -1,6 +1,6 @@
 package lista.exercicios.dip.violation;
 
-public class CarroDeCorrida {
+public class CarroDeCorrida implements Carro {
 
     private final int capacidadeTanqueCombustivel;
     private int quantidadeCombustivel;
