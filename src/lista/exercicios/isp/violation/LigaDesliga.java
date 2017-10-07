@@ -1,6 +1,6 @@
 package lista.exercicios.isp.violation;
 
-public interface ligaDesliga {
+public interface LigaDesliga {
     void ligar();
     void desligar();
 }

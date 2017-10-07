@@ -1,6 +1,6 @@
 package lista.exercicios.isp.violation;
 
-public abstract class Veiculo implements ligaDesliga {
+public abstract class Veiculo implements LigaDesliga {
 
     private boolean motorLigado;
 
